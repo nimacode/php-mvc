@@ -1,0 +1,14 @@
+{
+    "name": "nimacode/php-mvc",
+    "description": "php mvc micro framework",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/database": "^5.8",
+        "illuminate/events": "^5.8",
+        "jenssegers/blade": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {"App\\":"App/"}
+    }
+}
